@@ -1,33 +1,580 @@
 <mxfile host="65bd71144e">
     <diagram id="ASTWp4ZXTidoFe2xOwB_" name="1b">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="433" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;預約型買家&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="90" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;現場即時參觀買家&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="390" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;代銷管理者&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="250" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(13, 17, 23);&quot;&gt;建案開發商&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="45" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="房屋買賣銷售系統" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="40" width="280" height="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 13px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;預約型買家填寫預約申請。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="70" y="240" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 13px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;現場即時參觀買家填寫參觀申請。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="80" y="465" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;審核預約型買家的申請並通知。&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="80" y="130" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 13px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;審核現場即時參觀買家的申請並通知。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="80" y="350" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 13px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;通知閒置的代銷人員進行現場即時參觀。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="80" y="570" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 13px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;提供買家資訊給開發商。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                    <mxGeometry x="80" y="30" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="7" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;fontSize=13;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;代銷人員&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="480" width="70" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;fontSize=13;endArrow=none;endFill=0;" edge="1" parent="1" source="12" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="AtQRSpt3zy_u7g2lGNry" name="1c">
+        <mxGraphModel dx="666" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="VGVDyRNTuh95ewewW9CQ-1" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="80" y="220" width="670" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;rotation=90;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="51.43835616438355" y="-49.48419301164725" width="567.1232876712329" height="668.0532445923461" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-3" value="" style="line;strokeWidth=2;html=1;strokeColor=#FFFFFF;fontSize=15;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry y="74.06" width="670" height="9.15" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-4" value="" style="line;strokeWidth=2;direction=south;html=1;strokeColor=#FFFFFF;fontSize=15;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="216.85000000000002" width="9.45" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-5" value="" style="line;strokeWidth=2;direction=south;html=1;strokeColor=#FFFFFF;fontSize=15;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="443.70000000000005" width="9.45" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-8" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="306.64383561643837" y="302.84525790349414" width="56.71232876712329" height="54.90848585690516" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=2;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="83.57534246575341" y="101.51414309484193" width="36.60565723793677" height="36.60565723793677" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;審核預約申請&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="54.27" y="183.88" width="95.73" height="66.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-12" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-9" target="UXR1cGOSBbxPW9qyqLfQ-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-13" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-14" target="UXR1cGOSBbxPW9qyqLfQ-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;確認資訊是否正確&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="292.4657534246575" y="169.6921797004992" width="85.06849315068493" height="64.05990016638935" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-10" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-11" target="UXR1cGOSBbxPW9qyqLfQ-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;重新填寫&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="283.013698630137" y="417.2379367720466" width="103.97260273972603" height="45.75707154742096" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-6" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-8" target="UXR1cGOSBbxPW9qyqLfQ-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-17" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontSize=30;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="74.12328767123287" y="412.66222961730455" width="54.90848585690516" height="54.90848585690516" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-15" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-16" target="UXR1cGOSBbxPW9qyqLfQ-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-18" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontSize=30;fillColor=none;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="533.4931506849315" y="412.66222961730455" width="54.90848585690516" height="54.90848585690516" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-19" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-20" target="UXR1cGOSBbxPW9qyqLfQ-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;申請成功&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="509.8630136986301" y="307.42096505823633" width="103.97260273972603" height="45.75707154742096" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-21" value="[是]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="330.2739726027397" y="266.2396006655574" width="56.71232876712329" height="27.45424292845258" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-22" value="[不是]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="264.1095890410959" y="353.1780366056572" width="56.71232876712329" height="27.45424292845258" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-23" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;代銷管理者&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="249.93150684931504" y="19.15141430948418" width="170.13698630136986" height="64.05990016638935" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-24" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;接待人員&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="476.7808219178082" y="19.15141430948418" width="170.13698630136986" height="64.05990016638935" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-25" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;買家&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="VGVDyRNTuh95ewewW9CQ-1">
+                    <mxGeometry x="54.27397260273972" y="19.15141430948418" width="103.97260273972603" height="64.05990016638935" as="geometry"/>
+                </mxCell>
+                <mxCell id="UXR1cGOSBbxPW9qyqLfQ-7" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="VGVDyRNTuh95ewewW9CQ-1" source="UXR1cGOSBbxPW9qyqLfQ-8" target="UXR1cGOSBbxPW9qyqLfQ-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="YNBZmlXG5lnyesX3e9GX" name="1d">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="433" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-1" style="edgeStyle=none;html=1;entryX=0.002;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="SfS6prjnD3YVBQfjqKmG-2" target="SfS6prjnD3YVBQfjqKmG-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-2" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;買家&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="360" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-3" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;+姓名&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-2">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-4" value="+聯絡方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-2">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-5" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;閒置代銷人員&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="130" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-6" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;+姓名&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-5">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-7" value="+聯絡方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-5">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-8" value="+員工編號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-5">
+                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-9" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="SfS6prjnD3YVBQfjqKmG-10" target="SfS6prjnD3YVBQfjqKmG-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-10" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;代銷管理者&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="100" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-11" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;+姓名&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-10">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-12" value="+聯絡方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-10">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-13" value="+審核狀態" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-10">
+                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-14" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#e6edf3&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(22, 27, 34);&quot;&gt;申請表&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="340" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-15" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;+姓名&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-14">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-16" value="+聯絡方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-14">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-17" value="+預約日期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-14">
+                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-18" value="+申請類型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="SfS6prjnD3YVBQfjqKmG-14">
+                    <mxGeometry y="120" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-19" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="375" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-20" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="375" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-21" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="350" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-22" value="填寫" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="345" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-23" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="366" y="220" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-24" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="366" y="310" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-25" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=15;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="341" y="250" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-26" value="審核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="326" y="220" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-27" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SfS6prjnD3YVBQfjqKmG-12" target="SfS6prjnD3YVBQfjqKmG-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-28" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="130" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-29" value="安排" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="466" y="125" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-30" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="146" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="SfS6prjnD3YVBQfjqKmG-31" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="146" width="30" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="AscKv5OJ8TlSJ3xA4gjY" name="2b">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1293" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-1" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;申請者&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="88" y="280" width="90" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-2" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;政府機關人員&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="648" y="170" width="90" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-3" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;第三方金融機構&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="648" y="670" width="90" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-4" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;第三方健保局&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="648" y="424.5" width="90" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-5" value="人民普發8000系統" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="248" y="50" width="300" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-6" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;民眾填寫個人資料。&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DR_koOJYEw3pAI1XDrrU-5">
+                    <mxGeometry x="40" y="50" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-7" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;民眾確認資料後提交申請。&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DR_koOJYEw3pAI1XDrrU-5">
+                    <mxGeometry x="40" y="170" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-8" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;民眾查詢申請進度及狀態。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DR_koOJYEw3pAI1XDrrU-5">
+                    <mxGeometry x="40" y="300" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-9" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;政府人員驗證申請者身份&lt;/span&gt;&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DR_koOJYEw3pAI1XDrrU-5">
+                    <mxGeometry x="40" y="580" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-10" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;政府人員核准符合資格者。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DR_koOJYEw3pAI1XDrrU-5">
+                    <mxGeometry x="40" y="444.5" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-11" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;政府人員核准的申請者資料轉為 JSON 格式，傳送至金融機構進行發放。&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DR_koOJYEw3pAI1XDrrU-5">
+                    <mxGeometry x="40" y="710" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-12" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="188" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-13" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="198" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-14" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="198" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-15" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="627.9999999999998" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-16" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="617.9999999999998" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-17" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="627.9999999999998" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="DR_koOJYEw3pAI1XDrrU-18" style="edgeStyle=none;html=1;fontSize=15;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DR_koOJYEw3pAI1XDrrU-9" target="DR_koOJYEw3pAI1XDrrU-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="638" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="if7IN8UPJ3e0kFL1kbhM" name="2c">
+        <mxGraphModel dx="1392" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;rotation=90;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="130.54794520547944" y="220.40765391014975" width="558.904109589041" height="669.2678868552414" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-3" value="" style="line;strokeWidth=2;html=1;strokeColor=#FFFFFF;fontSize=15;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="344.18" width="660" height="9.17" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-4" value="" style="line;strokeWidth=2;direction=south;html=1;strokeColor=#FFFFFF;fontSize=15;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="293.56164383561645" y="280" width="9.315068493150685" height="551" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-5" value="" style="line;strokeWidth=2;direction=south;html=1;strokeColor=#FFFFFF;fontSize=15;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="517.1232876712329" y="280" width="9.315068493150685" height="551" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-6" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="1" source="m5fEGtUMzGKBvBx8wetd-1" target="2eADMN8yzEdtDTFR3sR2-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-7" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="1" source="2eADMN8yzEdtDTFR3sR2-8" target="2eADMN8yzEdtDTFR3sR2-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-8" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="382.05479452054794" y="573.377703826955" width="55.890410958904106" height="55.00831946755408" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=2;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="162.21917808219177" y="371.68053244592346" width="36.67221297836938" height="36.67221297836938" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-10" style="edgeStyle=none;rounded=0;html=1;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="480" as="sourcePoint"/>
+                        <mxPoint x="370" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-11" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;進入網站查詢&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="133.34" y="454.19" width="96.66" height="65.81" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-12" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="1" source="2eADMN8yzEdtDTFR3sR2-9" target="2eADMN8yzEdtDTFR3sR2-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-13" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;exitX=0.419;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2eADMN8yzEdtDTFR3sR2-14" target="2eADMN8yzEdtDTFR3sR2-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-14" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;確認申請審核及發放&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="368.08" y="439.98" width="101.92" height="64.18" as="geometry"/>
+                </mxCell>
+                <mxCell id="m5fEGtUMzGKBvBx8wetd-2" style="edgeStyle=none;html=1;fontSize=20;strokeWidth=3;" edge="1" parent="1" source="2eADMN8yzEdtDTFR3sR2-16" target="2eADMN8yzEdtDTFR3sR2-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-16" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;提示審核尚未完成&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="358.77" y="687.98" width="101.23" height="62.02" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-17" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontSize=30;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="153.0541095890411" y="691.4843427620632" width="55.00831946755408" height="55.00831946755408" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-18" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontSize=30;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="605.6164383561644" y="683.3943427620632" width="55.00831946755408" height="55.00831946755408" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-19" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=20;endArrow=classic;endFill=1;" edge="1" parent="1" source="2eADMN8yzEdtDTFR3sR2-20" target="2eADMN8yzEdtDTFR3sR2-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;查詢成功&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=30;fillColor=none;strokeWidth=1;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="582.3287671232877" y="577.9617304492513" width="102.46575342465752" height="45.84026622296173" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-21" value="[是]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="405.3424657534247" y="536.7054908485857" width="55.890410958904106" height="27.50415973377704" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-22" value="[不是]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=20;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="340.13698630136986" y="623.801996672213" width="55.890410958904106" height="27.50415973377704" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-23" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;政府機關人員&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="326.16438356164383" y="289.16805324459233" width="181.64383561643837" height="64.17637271214643" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-24" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;金融機構&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="549.7260273972602" y="289.16805324459233" width="167.67123287671234" height="64.17637271214643" as="geometry"/>
+                </mxCell>
+                <mxCell id="2eADMN8yzEdtDTFR3sR2-25" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;申請者&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="133.34246575342465" y="289.16805324459233" width="102.46575342465752" height="64.17637271214643" as="geometry"/>
+                </mxCell>
+                <mxCell id="m5fEGtUMzGKBvBx8wetd-1" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;fillColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="382.05479452054794" y="573.377703826955" width="55.890410958904106" height="55.00831946755408" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="jKp8lnFoO_ODNvvGuu6S" name="2d">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="494" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-1" style="edgeStyle=none;html=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="g3WL1pRLdrtDG3QnM8Fs-3" target="g3WL1pRLdrtDG3QnM8Fs-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-2" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g3WL1pRLdrtDG3QnM8Fs-7" target="g3WL1pRLdrtDG3QnM8Fs-26">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="613" y="575"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-3" value="申請者" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="440" width="140" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-4" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-身份證號&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-3">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-5" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-居留證號&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-3">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;-代領金融代號&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-3">
+                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-7" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-金融機構帳號&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-3">
+                    <mxGeometry y="120" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-8" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-健保卡卡號&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-3">
+                    <mxGeometry y="150" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-9" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="g3WL1pRLdrtDG3QnM8Fs-10" target="g3WL1pRLdrtDG3QnM8Fs-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-10" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;政府機關人員&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="230" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-11" value="+姓名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-10">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-12" value="+員工編號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-10">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-13" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(13, 17, 23);&quot;&gt;第三方金融機構&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="400" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-14" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-身份證號&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-13">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-15" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-居留證號&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-13">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-16" value="-金融機構帳號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-13">
+                    <mxGeometry y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-17" value="-代領金融代號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-13">
+                    <mxGeometry y="120" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-18" value="&lt;span style=&quot;color: rgb(230, 237, 243); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(22, 27, 34);&quot;&gt;第三方健保局&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="740" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-19" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-身份證號&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-18">
+                    <mxGeometry y="30" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-20" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-居留證號&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-18">
+                    <mxGeometry y="60" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- 健保卡卡號&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-18">
+                    <mxGeometry y="90" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-22" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="g3WL1pRLdrtDG3QnM8Fs-23" target="g3WL1pRLdrtDG3QnM8Fs-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-23" value="申請者" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="500" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+姓名&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-23">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+連絡電話&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-23">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-26" value="戶政系統" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="543" y="640" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-27" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-身份證號&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-26">
+                    <mxGeometry y="30" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-28" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; background-color: rgb(13, 13, 13);&quot;&gt;-居留證號&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="g3WL1pRLdrtDG3QnM8Fs-26">
+                    <mxGeometry y="60" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-29" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" target="g3WL1pRLdrtDG3QnM8Fs-15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="475" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-30" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=14;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="357" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-31" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;驗證&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="324" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-32" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="320" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-33" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="410" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-34" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=14;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="397" y="650" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-35" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;比對&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="620" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-36" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="620" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-37" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="710" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-38" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=14;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="574" y="425" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-39" value="比對" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="420" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-40" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="455" y="450" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-41" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="448" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-42" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="575" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-43" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="583" y="610" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-44" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=14;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="588" y="580" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-45" value="比對" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="543" y="575" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-46" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="515" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-47" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="515" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-48" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="495" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3WL1pRLdrtDG3QnM8Fs-49" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;提交&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="247" y="490" width="60" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
