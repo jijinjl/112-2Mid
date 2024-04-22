@@ -230,8 +230,11 @@
 <br>
 
 
-(d)初步類別圖
+(d)初步類別圖  
+
 ![alt text](./answer.png/answer2(d).png) 
+
+<br>
 
 
 
