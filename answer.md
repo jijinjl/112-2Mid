@@ -122,8 +122,7 @@
 活動圖補充  
 ![alt text](./answer.png/answer1(c).png) 
 
-(d)  
-初步類別圖
+(d)初步類別圖
 ![alt text](./answer.png/answer1(d).png) 
 
 <br>
